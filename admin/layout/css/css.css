@@ -1,0 +1,280 @@
+
+body{
+      background: #F4F4F4;
+      font-size: 16px;
+}
+
+.login{
+    max-width: 300px;
+    margin:100px auto;
+  
+}
+.login h3{
+    color:#444;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.login input{
+      margin-bottom: 10px;
+}
+
+.login .form-control{
+      background-color: #EAEAEA;
+}
+
+
+.login .btn{
+      background: #008dde;
+}
+
+
+/* start navbar*/
+.navbar{
+      padding-top:0;
+      padding-bottom: 0;
+      font-size: 1.25em;
+}
+
+.navbar-nav .dropdown-menu {
+      background: #16a085;
+      padding:0 0;
+      border:0;
+}
+.nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+    
+/*end navbar*/
+/*start dashboard page */
+.home-status .us{
+      background: #1abc9c;
+}
+.home-status .bus{
+      background: #2980b9;
+}
+.home-status .is{
+      background: #e74c3c;
+}
+.home-status .cs{
+      background: #f1c40f;
+}
+
+.home-status .stat{
+      font-size:1.1rem;
+      border: 8px solid #F4F4F4;
+      padding: 9px;
+       color: white;
+       font-weight: bold;
+}
+.home-status .stat span{
+      display: block;
+      font-size:5rem;     
+}
+.home-status .stat span a{
+      text-decoration: none;
+      color:inherit;
+}
+.latest .card-body{
+      padding: 0.75rem;
+}
+.latest_users li{
+      overflow: hidden;
+      margin-bottom: 0.25rem;
+      padding:0.25rem 0.5rem ;
+      
+}
+.latest_users .btn{
+      padding-top: 0;
+      padding-bottom: 0;
+}
+.latest_users li:nth-child(odd){
+      background: #EEE;
+}
+/*end dashboard page */
+/* start members */
+.members{
+      font-size:1rem;
+      color:#555;
+}
+.members h3{
+      margin-top:1.5rem;
+      margin-bottom: 1rem;
+}
+.members label{
+      margin-top:2px;
+}
+.form-group{
+      position: relative;
+}
+.manage_h3{
+      margin:1rem 1rem 2rem; 
+}
+.main_table{
+      box-shadow: 3px 3px 5px  grey;
+}
+.main_table td{
+      background:white;
+      margin:0.5rem;
+      vertical-align:middle;
+      }
+      
+.main_table tr:first-of-type td
+{
+      background:#212529;
+      color:#16a085;
+      font-weight: 800;
+      text-transform: uppercase;
+}
+.manage_btn{
+      min-width:70px;
+}
+.manage_btn:not(last-of-type){
+      margin-right:0.25rem;
+}
+/* end members*/
+/* start categories page*/
+.categories .card{
+      box-shadow:#444 0.3rem 0.3rem 0.5rem;
+}
+.categories .card-header h3{
+      display:inline-block;
+}
+.categories .card-header span{
+ color:#888;
+ cursor: pointer;
+}
+.categories .card-header a,
+.categories .card-header a:hover{
+      color:#888;
+      text-decoration: none;
+}
+.categories .cat h3{
+      cursor: pointer;
+}
+.categories .card-header div{
+      display:inline-block;
+      margin-top: 5px ;
+}
+.categories .card-header div a:hover{
+      text-decoration: none;
+}
+.categories .cat{
+      position: relative;
+      overflow: hidden;
+      border-bottom: .5px dashed #CCC;
+      padding-bottom:0.75rem; 
+}
+.categories .cat:last-child{
+      border: none;
+}
+.categories .cat:not(last-of-type){
+      margin-bottom: 1.5rem;
+}
+.categories .hidden-bttns{
+      position:absolute;
+      top:0;
+      right:-10rem;
+      -moz-transition: all 0.5s ease-in-out ;
+      -webkit-transition: all 0.5s ease-in-out ;
+      transition: all 0.5s ease-in-out ;
+      /*-webkit-transition-delay: 1s;*/
+      /*transition-delay: 1s;*/
+}
+.categories .cat:hover .hidden-bttns{
+      right:0;
+}
+.categories .hidden-bttns .btn-success{
+      margin-right: 0.25rem;
+}
+.categories .card-body span{
+      font-weight:800;
+      margin-right:0.5rem;
+      text-transform: uppercase;
+}
+.categories .visibility{
+      color:#2c3e50;
+}
+.categories .comment{
+      color:#d35400;
+}
+.categories .advertisment{
+      color:#c0392b;
+}
+.categories .ab{
+      margin-bottom:2rem;
+}
+/* end categories page*/
+
+/* tools*/
+.nvisible{
+      visibility: hidden;
+}
+
+.hidden{
+      display: none;
+}
+.mc{
+      color:#16a085;
+}
+.mbg{
+      background: #16a085;
+}
+.mdbg{
+      background:#212529;
+}
+.custom_botton{
+      border:0;
+      padding-right:1.5rem;
+      padding-left:1.5rem;
+}
+
+.custom_botton:hover{
+  background:  #16a085;    
+}
+
+.custom_input:hover{
+      border: 0px;
+}
+
+.astric{
+     
+position: relative;
+    top: -1rem;color: red;
+}
+
+.cc{
+      margin-top: 1.5rem ;
+}
+.astyle{
+      text-decoration: none;
+}
+.active{
+      color: #16a085 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
