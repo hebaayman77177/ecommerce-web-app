@@ -78,7 +78,7 @@
             $stmt->execute(array($userid));
             $count=$stmt->rowCount();
             if ($count>0){
-                echo '<div class="alert alert-success"><strong>'.$count ." row</strong> deleted.</div>";
+                echo '<div class="alert alert-success"><strong>'.$count ." row</strong> activated.</div>";
                 home_redirect('back');
             }
             

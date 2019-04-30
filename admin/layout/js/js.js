@@ -50,7 +50,14 @@ $(function(){
     });
  
  
- 
+ //taggle the items in the latest items in the dashboard
+ $(".latest  .b-m").click(function(){
+    console.log("here");
+    $(this).toggleClass("selected").siblings(".b-m").toggleClass("selected");
+    $(this).parents(".card").find(".card-body .control").toggleClass("selected");
+    
+    
+    });
  
  
  
@@ -59,3 +66,54 @@ $(function(){
  
     
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

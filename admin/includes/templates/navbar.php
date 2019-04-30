@@ -17,7 +17,13 @@
         <a class="nav-link" href="categories.php"><?php echo lang('categories');?></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="members.php?action=manage"><?php echo lang('members');?></a>
+        <a class="nav-link" href="members.php"><?php echo lang('members');?></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="items.php">Items</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="comments.php">Comments</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><?php echo lang('statistics');?></a>

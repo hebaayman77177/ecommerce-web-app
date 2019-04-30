@@ -69,7 +69,10 @@ body{
        color: white;
        font-weight: bold;
 }
-.home-status .stat span{
+.home-status .hs-i{
+      margin-top:4rem;
+}
+.home-status .stat .numberof span{
       display: block;
       font-size:5rem;     
 }
@@ -79,6 +82,16 @@ body{
 }
 .latest .card-body{
       padding: 0.75rem;
+}
+.latest .card-header i{
+      cursor: pointer;
+      color: #999;
+}
+.latest .card-header i:hover{
+      color: #444;
+}
+.latest .selected{
+      display:none;
 }
 .latest_users li{
       overflow: hidden;
